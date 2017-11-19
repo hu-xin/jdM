@@ -1,0 +1,101 @@
+/*设置满屏*/
+body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+/*分类内容*/
+.jd-category{
+	width: 100%;
+	height: 100%;
+	padding-top: 45px;
+	position: relative;
+	background-color: #f0f0f0;
+}
+/*左边*/
+.jd-category .jd-category-left{
+	width: 90px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 45px;
+	overflow: hidden;
+}
+.jd-category .jd-category-left .title-list{
+	width: 100%;
+}
+.jd-category .jd-category-left .title-list li{
+	width: 100%;
+}
+.jd-category .jd-category-left .title-list li a{
+	display: block;
+	width: 100%;
+	height: 46px;
+	font-size: 11px;
+	background-color: #fff;
+	line-height: 46px;
+	text-align: center;
+	border-bottom: 1px solid #f0f0f0;
+}
+.jd-category .jd-category-left .title-list li.active a{
+	color: #f23030;
+}
+/*右边*/
+.jd-category .jd-category-right{
+	width: 100%;
+	height: 100%;
+	padding-left: 90px;
+}
+.jd-category .jd-category-right .category-list{
+	width: 100%;
+	padding: 12px 10px;
+}
+.jd-category .jd-category-right .category-list .category-banner{
+	width: 100%;
+}
+.jd-category .jd-category-right .category-list .category-banner a{
+	display: block;
+	width: 100%;
+}
+.jd-category .jd-category-right .category-list .category-banner a img{
+	display: block;
+	width: 100%;
+}
+.jd-category .jd-category-right .category-list .category-content{
+	width: 100%;
+	padding-top: 10px;
+}
+.jd-category .jd-category-right .category-list .category-content h3{
+	font-size: 11px;
+	font-weight: inherit;
+	line-height: 2;
+	margin-bottom: 5px;
+}
+.jd-category .jd-category-right .category-list .category-content ul{
+	width: 100%;
+	background-color: #fff;
+}
+.jd-category .jd-category-right .category-list .category-content ul li{
+	width: 33.333333%;
+	float: left;
+}
+.jd-category .jd-category-right .category-list .category-content ul li a{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.jd-category .jd-category-right .category-list .category-content ul li a img{
+	display: block;
+	width: 62px;
+	height: 62px;
+	margin: 0 auto;
+}
+.jd-category .jd-category-right .category-list .category-content ul li a p{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: #686868;
+	font-size: 11px;
+}
