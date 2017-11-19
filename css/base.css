@@ -44,3 +44,56 @@ input,textarea{
 	background: url(../images/sprites.png) no-repeat;
 	background-size: 200px 200px;
 }
+
+/*头部通栏*/
+.jd-topbar{
+	width: 100%;
+	height: 45px;
+	background: url(../images/header-bg.png) repeat-x;
+	background-size:1px 44px;
+	border-bottom: 1px solid #e0e0e0;
+	position: absolute;
+	z-index: 1000;
+}
+.jd-topbar .icon-back{
+	display: block;
+	width: 40px;
+	height: 44px;
+	background-position: -20px 0;
+	background-clip: content-box;
+	background-origin: content-box;
+	padding: 12px 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.jd-topbar form{
+	width: 100%;
+	padding: 6px 40px 0 40px;
+}
+.jd-topbar form input{
+	width: 100%;
+	height: 32px;
+	border:1px solid #dfdfdf;
+	border-radius: 4px;
+	padding: 0 5px;
+}
+.jd-topbar h2{
+	width: 100%;
+	font-size: 16px;
+	line-height: 44px;
+	text-align: center;
+	font-family: sans-serif;
+}
+.jd-topbar .icon-menu{
+	display: block;
+	width: 40px;
+	height: 44px;
+	background-position: -60px 0;
+	background-clip: content-box;
+	background-origin: content-box;
+	padding: 12px 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
