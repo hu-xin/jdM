@@ -9,7 +9,7 @@
 	-webkit-box-sizing: border-box;/*从边框开始算宽度*/
 }
 body{
-	font-style: 14px;
+	font-size: 14px;
 	font-family: "Microsoft YaHei",sans-serif;/*sans-serif是手机默认字体*/
 	color: #000;
 }
@@ -84,6 +84,7 @@ input,textarea{
 	line-height: 44px;
 	text-align: center;
 	font-family: sans-serif;
+	font-weight: normal;
 }
 .jd-topbar .icon-menu{
 	display: block;
